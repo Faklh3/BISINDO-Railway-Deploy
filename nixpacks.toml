@@ -2,4 +2,4 @@
 pkgs = ["mesa.libGL", "glib"]
 
 [start]
-cmd = "gunicorn App:app 
+cmd = "gunicorn App:app --bind 0.0.0.0:$PORT"
