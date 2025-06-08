@@ -1,5 +1,5 @@
 [phases.setup]
-aptPkgs = ["libgl1-mesa-glx", "libglib2.0-0"]
+pkgs = ["mesa.libGL", "glib"]
 
 [start]
-cmd = "gunicorn App:app --bind 0.0.0.0:$PORT"
+cmd = "gunicorn App:app 
