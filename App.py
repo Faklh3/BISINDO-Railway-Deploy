@@ -11,9 +11,9 @@ from tensorflow.keras import layers
 # ─── CONFIGURASI ────────────────────────────────────────────────────────────────
 IMG_SIZE = 256
 
-# Path relatif ke file model_ujicoba.keras di dalam folder "model/"
+# Path relatif ke file model_ujicoba.keras di dalam folder "Model/"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "model", "model_ujicoba.keras")
+MODEL_PATH = os.path.join(BASE_DIR, "Model", "model_ujicoba.keras")
 
 # ─── DEFINE CUSTOM LAYER SILU ───────────────────────────────────────────────────
 class SiluLayer(layers.Layer):
